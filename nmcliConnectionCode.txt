@@ -1,0 +1,6 @@
+#delete current wifi
+nmcli connection delete 'SSID'
+
+
+
+nmcli device wifi connection 'SSID' password 'senha' 

@@ -1,0 +1,24 @@
+#list all WIFIs
+nmcli device wifi list
+
+#delete current WIFI connection
+nmcli connection delete <'SSID'>
+
+#connect to WIFI
+nmcli device wifi connection <'SSID'> password <'password'> 
+
+#make directory
+mkdir <directory-name>
+
+#unzip files
+tar -xzf <file.tar.gz>
+
+#delete file/dir
+rm <file-name>
+rmdir <directory-name>
+
+#remove non-empty dir
+rm -r <directory-name>
+
+#extract .tbz file
+tar -xjf <tbz-file>
